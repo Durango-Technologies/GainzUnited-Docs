@@ -30,4 +30,18 @@ Welcome to the `GainzUnited` Development Team! This document will provide a quic
 *Helpers* - `Helpers.swift`
 - contains various helper functions that are referenced throughout the app.
 
+## Other Services
+### Report Tracker
+- Remove or Ignore Posts/Comments/Profiles reported by users
+- Written in Express.js and hosted on Heroku
+- Bootstrap UI
+`git push heroku master`
+
+### Landing Page
+- Description and showcase of app, frequently asked questions
+- Written in vanilla js, hosted w/ Firebase hosting
+- Bootstrap UI
+`firebase serve` - local
+`firebase deploy` - production
+
 
